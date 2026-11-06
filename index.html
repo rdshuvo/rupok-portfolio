@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rupok's personal portfolio showcasing web development skills and projects.">
+  <title>Rupok | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#" class="logo">rupok<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, I'M R U P O K</p>
+        <h1>Building for the web.<br><span>Learning every day.</span></h1>
+        <p class="hero-description">
+          I'm an aspiring web developer interested in building useful,
+          responsive websites and understanding how web applications work.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="code-window">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <p><span class="code-purple">const</span> developer = {</p>
+          <p class="indent">name: <span class="code-green">'Rupok'</span>,</p>
+          <p class="indent">skills: [</p>
+          <p class="indent2"><span class="code-green">'HTML'</span>,</p>
+          <p class="indent2"><span class="code-green">'CSS'</span>,</p>
+          <p class="indent2"><span class="code-green">'JavaScript'</span></p>
+          <p class="indent">],</p>
+          <p class="indent">mindset: <span class="code-green">'Always learning'</span></p>
+          <p>};</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-content">
+        <div>
+          <h3>A curious mind with an interest in technology.</h3>
+        </div>
+        <div>
+          <p>
+            I'm Rupok, an aspiring web developer with a foundation in
+            HTML, CSS and JavaScript. I enjoy learning how websites
+            work, solving coding problems and improving my skills
+            through practical projects.
+          </p>
+          <p>
+            I'm also interested in web application troubleshooting,
+            browser developer tools and understanding how APIs
+            connect different parts of an application.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I WORK WITH</p>
+          <h2>Technical Skills</h2>
+          <p class="section-subtitle">
+            Technologies and tools I have been learning and practising.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <h3>HTML5</h3>
+            <p>Semantic structure and accessible web page content.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <h3>CSS3</h3>
+            <p>Responsive layouts, styling and modern CSS techniques.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <h3>JavaScript</h3>
+            <p>DOM manipulation, events and interactive web features.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">04</span>
+            <h3>Git & GitHub</h3>
+            <p>Basic version control and managing project code.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">05</span>
+            <h3>Browser DevTools</h3>
+            <p>Inspecting page elements and investigating browser issues.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">06</span>
+            <h3>Web Fundamentals</h3>
+            <p>Currently developing knowledge of HTTP, JSON and REST APIs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">MY PRACTICAL WORK</p>
+        <h2>Selected Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual calendar-visual">
+            <span>MY PROJECT / 01</span>
+            <div class="calendar-preview">
+              <strong>MY CALENDAR</strong>
+              <div class="calendar-days">
+                <span>MON</span><span>TUE</span><span>WED</span>
+                <span>THU</span><span>FRI</span><span>SAT</span><span>SUN</span>
+              </div>
+              <div class="calendar-dates">
+                <span>01</span><span>02</span><span>03</span>
+                <span>04</span><span>05</span><span>06</span><span>07</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-type">WEB APPLICATION</p>
+            <h3>Smart Calendar</h3>
+            <p>A calendar interface built to practise HTML structure,
+              CSS styling and JavaScript functionality.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual support-visual">
+            <span>PROJECT / 02</span>
+            <div class="support-preview">
+              <div class="support-line"></div>
+              <div class="support-line short"></div>
+              <div class="support-box">Support Ticket<br><small>Practice project concept</small></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-type">PRACTICE PROJECT</p>
+            <h3>Support Dashboard</h3>
+            <p>A planned practice project to explore customer tickets,
+              issue tracking and support workflows.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-content">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have a project or opportunity?</h2>
+        <p>I'm interested in learning, collaborating and growing through practical work.</p>
+        <a href="mailto:YOUR_EMAIL@example.com" class="btn btn-light">Get in Touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#" class="logo">rupok<span>.</span></a>
+      <p>© <span id="year"></span> Rupok. Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
